@@ -4,8 +4,8 @@
 
 .app_headerImage{
   width: 100px;
-  
 }
+
 
 .App {
   background-color: white;
@@ -28,6 +28,13 @@
   max-width: 240px;
   border: 1px solid rgba(0, 0, 0, 0.1);
   display: flex; 
+}
+
+.app__rightbar {
+  background-color: lightskyblue;
+  max-width: 400px;
+  position: absolute;
+  right: 100px;
 }
 
 

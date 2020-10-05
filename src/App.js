@@ -37,7 +37,7 @@ function App() {
                
 
         {/* rightbar */}
-        <div>
+        <div className = 'app__rightbar'>
           <div className = 'app__members'>
             <h3>Family members: </h3>
             <Members />
