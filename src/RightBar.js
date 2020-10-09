@@ -13,7 +13,7 @@ const useStyles = makeStyles((theme) => ({
     },
   }));
   
-  export default function Members() {
+  export default function RightBar() {
     const classes = useStyles();
   
     return (
