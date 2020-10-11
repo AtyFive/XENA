@@ -22,6 +22,6 @@ const projectAuth = firebase.auth();
 const timestamp = firebase.firestore.FieldValue.serverTimestamp;
 
 export { projectStorage, projectFirestore, projectAuth, timestamp };
-
+//lets make a comment
 
   
