@@ -13,11 +13,19 @@
 
 .app__header {
   object-fit: contain;
-  
+  display: flex;
   padding: 20px;
   border-bottom: 1px solid lightgray;
   background-color: #fafafa;
+}
 
+.app__login {
+  background-color: red;
+  
+  position: absolute;
+  left: 200px;
+
+  
 }
 
 .app__body {

@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import Logo from './images/xena_logo.png';
+
 import Post from './Post';
 import Navbar from './Navbar';
 import Familytree from './components/Familytree'
@@ -9,18 +9,14 @@ import Timeline from './components/Timeline'
 import Calendar from './components/Calendar'
 import { BrowserRouter, Route } from 'react-router-dom';
 import RightBar from './RightBar';
+import TopMenu from './TopMenu';
 
 function App() {
   return (
     <div className="App">
 
       {/* header */}
-      <div className = 'app__header'>
-        <img
-          className = 'app_headerImage' src = {Logo} alt = 'XENA'
-        />
-        <div >Login Here</div>
-      </div>
+      <TopMenu />
 
       {/* body */}
       <div className = 'app__body'>
