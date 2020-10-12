@@ -22,9 +22,9 @@
 .app__login {
   background-color: red;
   
-  position: absolute;
-  left: 200px;
-
+  position: absolute; 
+  right: 100px;
+  
   
 }
 
